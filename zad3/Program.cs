@@ -3,7 +3,7 @@
 // Если да, то вывести всю информацию по нему - площадь, периметр, значения углов треугольника в градусах, 
 // является ли он прямоугольным, равнобедренным, равносторонним.
 
-void FindAngles (double a, double b, double c)
+void FindAngles(double a, double b, double c)
 {
     double cosA = (Math.Pow(a, 2) + Math.Pow(c, 2) - Math.Pow(b, 2)) / (2 * a * c);
     double arccosA = Math.Acos(cosA) * 180 / Math.PI;
